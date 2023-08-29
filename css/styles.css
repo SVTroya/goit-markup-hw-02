@@ -16,6 +16,8 @@
   --color-pressed-state: var(--ocean);
   --color-text-dark: var(--navy-blue);
   --color-text-light: var(--white);
+  --color-logo-text-dark: var(--navy-blue);
+  --color-logo-text-light: var(--cloud);
   --color-success: var(--green);
   --color-text: var(--slate);
   --color-subtle-text: var(--light_slate);
@@ -62,12 +64,12 @@ body {
   line-height: 1.17;
 }
 
-.link.logo .logo-main-dark {
-  color: var(--color-text-dark);
+.page-header .logo-main {
+  color: var(--color-logo-text-dark);
 }
 
-.link.logo .logo-main-light {
-  color: var(--color-light);
+.page-footer .logo-main {
+  color: var(--color-logo-text-light);
 }
 
 .link.menu-item {
@@ -164,7 +166,7 @@ h1.title {
   text-transform: capitalize;
 }
 
-.footer {
+.page-footer {
   color: var(--color-light);
   background-color: var(--color-dark-background);
 }
